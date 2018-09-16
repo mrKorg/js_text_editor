@@ -4,12 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Remember js #1</title>
+    <title>JS text editor</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<div id="app"></div>
+<div id="app">
+
+    <div class="editor">
+        <div class="editor__wrap">
+            <div class="editor__header">
+                <a href="#" id="button-bold">
+                    B
+                </a>
+                <a href="#" id="button-italic">
+                    italic
+                </a>
+                <a href="#" id="button-underline">
+                    underline
+                </a>
+                <a href="#" id="button-size">
+                    fontsize
+                </a>
+                <a href="#" id="button-color">
+                    fontcolor
+                </a>
+                <a href="#" id="button-background">
+                    highlight
+                </a>
+                <a href="#" id="button-link">
+                    link
+                </a>
+                <a href="#" id="button-unlink">
+                    unlink
+                </a>
+            </div>
+            <div class="editor__body">
+                <textarea name="textarea" id="textarea" style="display: none;"></textarea>
+                <iframe name="editor" id="editor"></iframe>
+            </div>
+        </div>
+    </div>
+
+</div>
 
 <script src="assets/js/scripts.js"></script>
 </body>
