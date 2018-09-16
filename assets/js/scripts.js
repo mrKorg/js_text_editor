@@ -67,7 +67,7 @@ document.body.onload = function () {
     }
 
     function getSynonyms(text) {
-        fetch('https://cors-anywhere.herokuapp.com/https://api.datamuse.com/words?rel_syn=' + text)
+        fetch('https://cors-anywhere.herokuapp.com/https://api.datamuse.com/words?rel_syn=' + text) // TODO fix 'https://cors-anywhere.herokuapp.com'
             .then(function (response) {
                 return response.json();
             })
