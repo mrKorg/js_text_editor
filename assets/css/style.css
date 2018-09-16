@@ -26,6 +26,17 @@
 .editor__header a:hover {
     background: white;
 }
+.editor__synonyms {
+    display: none;
+    margin-bottom: 10px;
+}
+.editor__synonyms a {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px 7px 0;
+    text-decoration: underline;
+}
 .editor__body iframe{
     border: 1px solid #121a1d;
     width: 100%;
